@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+    <!-- css/font/icon links -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Healing Kitchen</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+     <!-- header -->
+    <header class="container">
+        <img src="img/common/logo.png" alt="The Healing Kitchen logo; Hands holding a bowl of fresh ingredients and a mixing spoon.">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html" target="_blank">Home</a></li>
+                <li><a href="menu.html" target="_blank">Menu</a></li>
+                <li><a href="mission.html" target="_blank">Mission</a></li>
+                <li><a href="sustainability.html" target="_blank">Sustainability</a></li>
+                <li><a href="classes.html" target="_blank">Classes</a></li>
+                <li><a href="contact-us.html" target="_blank">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
+
+
+<!-- contact info  -->
+ <section class="contact">
+    <h1>Contact Us</h1>
+    <p>Get in touch with us about orders, questions, or to learn more about our sustainable farming practices and community programs.</p>
+</section>
+<section class="flex-container">
+    <div>
+        <h2>Get in Touch</h2>
+        <p>We would love to hear from you! Whether you're interested in our fresh produce, educational classes, or partnership opportunities, we're here to help.</p>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Farm Location</h3>
+                    <p>123 Green Farm Road</p>
+                    <p>Green Valley, CA 92123</p>
+                </div>
+                <div class="card">
+                    <h3>Phone</h3>
+                    <p>(851-920-4446)</p>
+                </div>
+                <div class="card">
+                    <h3>Email</h3>
+                    <p>info@thehealingkitchen.com</p>
+                </div>
+                <div class="card">
+                    <h3>Market Hours</h3>
+                    <p>Farmer's Market</p>
+                    <p>Saturday 9:00AM - 4PM</p>
+                    <p>June through September</p>
+                </div>
+    </div>
+
+
+
+    <!-- contact form  -->
+    <div class="contact">
+        <h2>Send Us A Message</h2>
+        <form id="contact-form">
+            <label for="name">Name*</label>
+            <input type="text" id="name*" name="name*" required>
+
+            <label for="email">Email*</label>
+            <input type="email" id="email*" name="email*" required>
+
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="subject">Subject*</label>
+            <select name="subject*" id="subject*" required>
+                <option value="assistance">Food Assistance</option>
+                <option value="donation">Donation</option>
+                <option value="market">Market</option>
+                <option value="classes">Classes</option>
+            </select>
+
+            <label for="message">Message*</label>
+            <textarea name="message" id="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+            <p id="form-message" class="success-message">
+                <i class="fas fa-check-circle"></i> Message sent successfully!
+            </p>
+        </form>
+    </div>
+</section>
+
+
+<!-- visit -->
+ <section class="card-container">
+    <div class="card">
+        <h2>Visit Our Farm</h2>
+        <p>Our farm is located in the heart of Green Valley, just 15 minutes from downtown. We welcome visitors for educational means, class participation, and community needs.</p>
+        <div class="flex-container">
+            <div class="flex-item bg-color">
+                <h3>Directions</h3>
+                <p>From Highway 101, take a right on exit 23. Drive for 10 minutes down Farm-Fresh Avenue and take a left onto Green Valley Road. Drive until you see our Healing Kitchen sign and you have made it to your new favorite local farm.</p>
+            </div>
+            <div class="flex-item bg-color">
+                <h3>Visiting Hours</h3>
+                <p>Tours are by appointment only. Please contact us by phone or email to book a tour today. See class schedule for more information on classes that we offer.</p>
+            </div>
+        </div>
+    </div>
+ </section>
+
+
+ <!-- FAQs -->
+  <section class="card-container">
+    <div class="card">
+        <h3>How do I place an order for vegetables?</h3>
+        <p>Send us an email or give us a call. If you are local, feel free to stop by and pick up whatever fresh produce you need, directly from our farm.</p>
+    </div>
+    <div class="card">
+        <h3>Do you offer delivery services?</h3>
+        <p>We offer delivery services to anywhere in the US. Email or call to place an order. </p>
+    </div>
+    <div class="card">
+        <h3>Can I visit the farm with my family?</h3>
+        <p>Yes! We encourage families to come together and learn about a good diet and sustainability. We believe it is of utmost importance to inform our community about the benefits of a healthy diet and fresh produce.</p>
+    </div>
+  </section>
+
+
+  <!-- footer -->
+   <footer class="flex-container">
+    <div class="footer">
+        <img src="img/common/logo.png" alt="The Healing Kitchen logo; Hands holding a bowl of fresh ingredients and a mixing spoon.">
+        <p>Copyright 2025. Healing Kitchen Inc.</p>
+            <div class="socials">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f fa-2x"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                <a href="https://www.tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok fa-2x"></i></a>
+            </div>
+    </div>
+    </footer>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
